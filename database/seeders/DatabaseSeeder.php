@@ -18,6 +18,6 @@ class DatabaseSeeder extends Seeder
         $this->call([AlunoSeeder::class]);
         $this->call([PostSeeder::class]);
         $this->call([BibliotecaSeeder::class]);
-        
+        $this->call([ContactsSeeder::class]);
     }
 }
